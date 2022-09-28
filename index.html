@@ -16,15 +16,24 @@
             <div class = 'col'>
                 <div class = 'col1'>
                     <img id="vis1" src="img/vis1.png" alt="vis1"/>
-                    <img id="vis2" src="img/vis2.png" alt="vis2" style = "width:320 px; height:492px;"/>
+                    <img id="vis2" src="img/vis2.png" alt="vis2"/>
                 </div>
             </div>
             <div class = 'col'>
                 <div class = 'col2'>
-                    <button type="button" onClick="button1Clicked()" >Reveal Marks and Channels</button>
-                    <div id = "button1-div"> </div>
-                    <button type="button" onClick="button2Clicked()">Reveal Color Map(s)</button>
-                    <div id = "button2-div"></div>
+                    <div class='vis1buttons'>
+                        <button type="button" onClick="v1button1Clicked()" >Reveal Marks and Channels</button>
+                        <div id = "vis1button1"> </div>
+                        <button type="button" onClick="v1button2Clicked()">Reveal Color Map(s)</button>
+                        <div id = "vis1button2"></div>
+                    </div>
+
+                    <div class=vis2buttons>
+                        <button type="button" onClick="v2button1Clicked()" >Reveal Marks and Channels</button>
+                        <div id = "vis2button1"> </div>
+                        <button type="button" onClick="v2button2Clicked()">Reveal Color Map(s)</button>
+                        <div id = "vis2button2"></div>
+                    </div>
                 </div>
             </div>    
         </div>

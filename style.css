@@ -31,8 +31,7 @@ body {
 }
 
 .col1 img {
-	width:  300px;
-	height: 400 px;
+	height: 500px;
 	padding: 3px;
 	margin-left: 3px;
 	object-fit: cover;
@@ -42,3 +41,26 @@ body {
 	height: 1000px;
 	text-align:  center;
 }
+
+button {
+    width: 150px;
+    outline: none;
+    margin: 50px;
+}
+
+.vis1buttons {
+	
+}
+
+/*.vis1buttons {
+	width: 300px;
+    height: 200px;
+    display: grid;
+}*/
+
+/*.vis2buttons {
+	width: 300px;
+    height: 200px;
+    display: grid;
+
+}*/
