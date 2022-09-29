@@ -6,7 +6,7 @@ function v1button1Clicked() {
 }
 
 function v1button2Clicked() {
-	let text = "Paragraph 2"
+	let text = "Divergent: Represents attribute of type X"
 
 	let v1button2Div = document.getElementById("vis1button2")
 	v1button2Div.innerHTML = text
@@ -20,7 +20,7 @@ function v2button1Clicked() {
 }
 
 function v2button2Clicked() {
-	let text = "Paragraph 2"
+	let text = "Catorical"
 
 	let v2button2Div = document.getElementById("vis2button2")
 	v2button2Div.innerHTML = text
