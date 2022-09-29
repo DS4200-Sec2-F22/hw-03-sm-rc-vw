@@ -49,6 +49,14 @@ button {
 }
 
 .vis1buttons {
+	text-align: left;
+	padding-left: 50px;
+	
+}
+
+.vis2buttons {
+	text-align: left;
+	padding-left: 50px;
 	
 }
 
