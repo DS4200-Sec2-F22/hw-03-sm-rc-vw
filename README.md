@@ -22,7 +22,7 @@ The purpose of this assignment is to practice creating an interactive webpage, a
    - Make all font on your webpage Arial. 
    - Add a title: "hw-03".
    - Add a centered header: "hw-03: Interactive Webpage, and Marks & Channels".
-   - Divive your webpage into two columns. 
+   - Divide your webpage into two columns. 
       - In the left column, add each visualization image included in the img folder of your cloned repo. The images should be stacked vertically (one on top of the other) as opposed to side-by-side. 
       - For each visualization, in the right column add two buttons. 
          - One button should say "Reveal Marks and Channels". When a user clicks "Reveal Marks and Channels", text should be added to the page that lists the marks and channels shown in the visualization to the left. For each channel, note the type of attribute it represents and whether the mapping from that type of attribute to the channel is a good choice or a poor choice. Explain your answer. Use formatting to make your answers easily readable (see reference for an example).  

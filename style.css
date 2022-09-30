@@ -43,10 +43,27 @@ body {
 }
 
 button {
-    width: 150px;
     outline: none;
-    margin: 50px;
+    margin-top: 10px;
+    margin-left: 50px;
+    text-align: center;
+    padding: 10px
+
 }
+
+#vis2button1 {
+	margin-top: 400px;
+}
+
+#vis2button2 {
+	
+}
+
+#vis2buttons {
+
+
+}
+
 
 .vis1buttons {
 	text-align: left;
@@ -59,16 +76,3 @@ button {
 	padding-left: 50px;
 	
 }
-
-/*.vis1buttons {
-	width: 300px;
-    height: 200px;
-    display: grid;
-}*/
-
-/*.vis2buttons {
-	width: 300px;
-    height: 200px;
-    display: grid;
-
-}*/

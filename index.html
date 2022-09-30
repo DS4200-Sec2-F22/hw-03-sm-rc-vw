@@ -9,30 +9,38 @@
 
 
 <body>
-    <h1 class = header> hw-03: Interactive Webpage, and Marks & Channels </h1>
+    <h1 class=header> hw-03: Interactive Webpage, and Marks & Channels </h1>
 
-    <div class = 'two-col'>
-        <div class = 'row'>
-            <div class = 'col'>
-                <div class = 'col1'>
+    <div class='two-col'>
+        <div class='row'>
+            <div class=col'>
+                <div class='col1'>
                     <img id="vis1" src="img/vis1.png" alt="vis1"/>
                     <img id="vis2" src="img/vis2.png" alt="vis2"/>
                 </div>
             </div>
-            <div class = 'col'>
-                <div class = 'col2'>
+            <div class='col'>
+                <div class='col2'>
                     <div class='vis1buttons'>
-                        <button type="button" onClick="v1button1Clicked()" >Reveal Marks and Channels</button>
-                        <div id = "vis1button1"> </div>
-                        <button type="button" onClick="v1button2Clicked()">Reveal Color Map(s)</button>
-                        <div id = "vis1button2"></div>
+
+                        <div id="vis1button1"> 
+                            <button class="markChannelButton" type="button" onClick="v1button1Clicked()" >Reveal Marks and Channels</button>
+                        </div>
+
+                        <div id ="vis1button2">
+                            <button class="colorMapButton" type="button" onClick="v1button2Clicked()">Reveal Color Map(s)</button>
+                        </div>
                     </div>
 
                     <div class=vis2buttons>
-                        <button type="button" onClick="v2button1Clicked()" >Reveal Marks and Channels</button>
-                        <div id = "vis2button1"> </div>
-                        <button type="button" onClick="v2button2Clicked()">Reveal Color Map(s)</button>
-                        <div id = "vis2button2"></div>
+            
+                        <div id="vis2button1"> 
+                            <button class="markChannelButton" type="button" onClick="v2button1Clicked()" >Reveal Marks and Channels</button>
+                        </div>
+                        
+                        <div id="vis2button2">
+                            <button class="colorMapButton" type="button" onClick="v2button2Clicked()">Reveal Color Map(s)</button>
+                        </div>
                     </div>
                 </div>
             </div>    
@@ -41,7 +49,7 @@
 
 
 
-    <h4 class = header> Acknowledgements </h4>
+    <h4 class=header> Acknowledgements </h4>
         <div> 
             <ul>
                 <li>resource</li>
