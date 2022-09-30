@@ -29,4 +29,4 @@ function v2button2Clicked() {
 
 	let text = document.getElementById('cmap2');
 	text.style.display = 'inline';
-}
+}  
