@@ -42,6 +42,20 @@ body {
 	text-align:  center;
 }
 
+.row1 {
+	display:  flex;
+	flex-direction: row;
+	width: 100%;
+	height:  500px;
+}
+
+.row2 {
+	display:  flex;
+	flex-direction: row;
+	width: 100%;
+	height:  500px;
+}
+
 button {
     outline: none;
     margin-top: 10px;
@@ -52,7 +66,7 @@ button {
 }
 
 #vis2button1 {
-	margin-top: 400px;
+	
 }
 
 #vis2button2 {
@@ -75,4 +89,27 @@ button {
 	text-align: left;
 	padding-left: 50px;
 	
+}
+
+#marks1 {
+	display: none;
+	padding-left: 50px;
+	
+}
+
+#cmap1 {
+	display: none;
+	padding-left: 50px;
+
+}
+
+#marks2 {
+	display: none;
+	padding-left: 50px;
+}
+
+#cmap2 {
+	display: none;
+	padding-left: 50px;
+
 }

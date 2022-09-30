@@ -21,25 +21,98 @@
             </div>
             <div class='col'>
                 <div class='col2'>
-                    <div class='vis1buttons'>
+                    <div class = 'row1'>
+                        <div class='vis1buttons'>
 
-                        <div id="vis1button1"> 
-                            <button class="markChannelButton" type="button" onClick="v1button1Clicked()" >Reveal Marks and Channels</button>
-                        </div>
+                            <div id="vis1button1"> 
+                                <button class="markChannelButton" type="button" onClick="v1button1Clicked()" >Reveal Marks and Channels</button>
+                            </div>
+                            <div id = marks1>
+                                <p>
+                                    <h3> Marks </h3>
+                                    <ul>
+                                        <li> Area </li>
+                                    </ul>
+                                    <h3> Channels </h3>
+                                    <ul>
+                                        <li> Color 
+                                            <ul>
+                                                <li>The different colors of the states represent the attribute of candidate(or party) which signifies which candidate its electoral votes would have gone to. </li>
+                                                <li> This was a good choice because it clearly differentiates between the two distinct groups. </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </p>    
+                            </div>
 
-                        <div id ="vis1button2">
-                            <button class="colorMapButton" type="button" onClick="v1button2Clicked()">Reveal Color Map(s)</button>
+                            <div id ="vis1button2">
+                                <button class="colorMapButton" type="button" onClick="v1button2Clicked()">Reveal Color Map(s)</button>
+                            </div>
+                            <div id = cmap1>
+                                <p>
+                                    <h3> Color Maps </h3>
+                                    <ul>
+                                        <li> Categorical
+                                            <ul>
+                                                <li>Uses 2 colors to differentiate the 2 respective electoral parties and the distribution of votes. It represents the attribute of the type(s) of parties.</li>
+                                                <li> This is a good mapping, because the two seperate colors show two distinct groups. </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </p>    
+                            </div>
+
                         </div>
                     </div>
 
-                    <div class=vis2buttons>
-            
-                        <div id="vis2button1"> 
-                            <button class="markChannelButton" type="button" onClick="v2button1Clicked()" >Reveal Marks and Channels</button>
-                        </div>
-                        
-                        <div id="vis2button2">
-                            <button class="colorMapButton" type="button" onClick="v2button2Clicked()">Reveal Color Map(s)</button>
+                    <div class = 'row2'>
+                        <div class=vis2buttons>
+                
+                            <div id="vis2button1"> 
+                                <button class="markChannelButton" type="button" onClick="v2button1Clicked()" >Reveal Marks and Channels </button>
+                            </div>
+
+                            <div id = marks2>
+                                <p>
+                                    <h3> Marks </h3>
+                                    <ul>
+                                        <li> Points </li>
+                                    </ul>
+                                    <h3> Channels </h3>
+                                    <ul>
+                                        <li> Color 
+                                            <ul>
+                                                <li>The color is on a gradient between two distinct colors and represents the attribute of scoring value (below to above average), indicating which hits are best. </li>
+                                                <li> The color was a mostly good choice because it makes it clear to the audience even at a glance which hits had better scoring value, however the average hits are hard to identify. </li>
+                                            </ul>
+                                        </li>
+                                        <li> Position (both)
+                                            <ul>
+                                                <li> The position represents increasing launch angle along the y-axis and increasing exit velocity along the x-axis. </li>
+                                                <li>This is a somewhat good choice because it shows how an increase in either affect success, but it isn't the most intuitive measure when looking at the graph initially. </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </p>    
+                            </div>
+                            
+                            <div id="vis2button2">
+                                <button class="colorMapButton" type="button" onClick="v2button2Clicked()">Reveal Color Map(s)</button>
+                            </div>
+
+                            <div id = cmap2>
+                                <p>
+                                    <h3> Color Maps </h3>
+                                    <ul>
+                                        <li> Divergent
+                                            <ul>
+                                                <li>This represents the scoring values of batted balls where the categorical attributes are one shade being the scoring value below average and there being a neutral color, and the orange being above average. </li>
+                                                <li> This is a good mapping, because the color contrast used indicates extremes of a range as well as where values fall relatively within this range. The extremes also stand out more than the average which highlights them and draws attention to sucessful vs unsucessful hits. </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </p>    
+                            </div>
                         </div>
                     </div>
                 </div>
